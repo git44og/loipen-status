@@ -1,0 +1,98 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Beispiel-Loipe Feldberg Nord",
+    "befahrbar": true,
+    "laenge_km": 6.2,
+    "hinweis": "Frisch gespurt (Beispieldaten)",
+    "aktualisiert": "2026-10-14T07:00:00+02:00"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      8.0,
+      47.88
+     ],
+     [
+      8.01,
+      47.884
+     ],
+     [
+      8.02,
+      47.889
+     ],
+     [
+      8.032,
+      47.891
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Beispiel-Loipe Fahler Loop",
+    "befahrbar": false,
+    "laenge_km": 4.5,
+    "hinweis": "Zu wenig Schnee (Beispieldaten)",
+    "aktualisiert": "2026-10-14T07:00:00+02:00"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      7.985,
+      47.87
+     ],
+     [
+      7.997,
+      47.866
+     ],
+     [
+      8.01,
+      47.868
+     ],
+     [
+      8.018,
+      47.873
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Beispiel-Loipe Seebuck",
+    "befahrbar": true,
+    "laenge_km": 8.0,
+    "hinweis": "Klassisch & Skating (Beispieldaten)",
+    "aktualisiert": "2026-10-14T07:00:00+02:00"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      8.02,
+      47.874
+     ],
+     [
+      8.03,
+      47.868
+     ],
+     [
+      8.042,
+      47.87
+     ],
+     [
+      8.05,
+      47.877
+     ]
+    ]
+   }
+  }
+ ]
+}
