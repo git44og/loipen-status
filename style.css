@@ -1,0 +1,22 @@
+:root { --ok:#1a9850; --no:#d73027; --bar:#1f6feb; }
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; font-family: system-ui, sans-serif; }
+body { display: flex; flex-direction: column; }
+header { display: flex; align-items: center; gap: .5rem; padding: .5rem .75rem;
+  padding-top: calc(.5rem + env(safe-area-inset-top)); background: var(--bar); color: #fff; }
+header h1 { font-size: 1.1rem; margin: 0; flex: 1; }
+#updated { font-size: .75rem; opacity: .85; }
+header button { background: rgba(255,255,255,.2); color: #fff; border: 0; border-radius: 6px;
+  font-size: 1.1rem; padding: .3rem .6rem; cursor: pointer; }
+#map { flex: 1; }
+#legend { display: flex; gap: 1.25rem; justify-content: center; padding: .5rem;
+  padding-bottom: calc(.5rem + env(safe-area-inset-bottom)); background: #fff; font-size: .9rem; }
+.dot { display: inline-block; width: .8rem; height: .8rem; border-radius: 50%; vertical-align: middle; }
+.dot.ok { background: var(--ok); } .dot.no { background: var(--no); }
+#msg { position: absolute; z-index: 1000; left: 50%; top: 4rem; transform: translateX(-50%);
+  background: #333; color: #fff; padding: .5rem .9rem; border-radius: 8px; font-size: .85rem; max-width: 90vw; }
+.popup h3 { margin: 0 0 .25rem; }
+.badge { display: inline-block; padding: .1rem .5rem; border-radius: 99px; color: #fff; font-size: .8rem; }
+.badge.ok { background: var(--ok); } .badge.no { background: var(--no); }
+.me { width: 16px; height: 16px; background: #1f6feb; border: 3px solid #fff; border-radius: 50%;
+  box-shadow: 0 0 0 2px rgba(31,111,235,.4); }
